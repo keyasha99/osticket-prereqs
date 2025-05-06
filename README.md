@@ -84,7 +84,107 @@ Select Standard Configuration and continue.
 <img src="https://i.imgur.com/BLLA2pe.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Check the Modify Security Settings and to make things easier, set the username and password to root. I suggest saving a text file to
+Check the Modify Security Settings and to make things easier, set the username and password to root. I suggest saving a text file for all of the credentials that you will be using. The osTicket Admin login is saved for later. Continue with installation.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/QXfWn02.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Open IIS as an Administrator. Click on PHP.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/iuZhaeo.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Click on Register new PHP version. Follow along through the next couple of pictures.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AmSEQVJ.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VvFQAZD.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/vsXYn5A.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/uOZYGOC.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/0oXzSqr.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Go back to the osticket-vm Home and reload IIS by going to the right side of the window and clicking on Stop and then Start.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/KflXZZe.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Now you're going to install osTicket v1.15.8. First, go to the osTicket-Installation-Files folder and unzip the folder. You don't have to change the destination for the unzipped folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/FIzJk2T.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
 </p>
 <br />
 
