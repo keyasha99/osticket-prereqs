@@ -136,7 +136,7 @@ Go back to the osticket-vm Home and reload IIS by going to the right side of the
 <img src="https://i.imgur.com/KflXZZe.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Now you're going to install osTicket v1.15.8. First, go to the osTicket-Installation-Files folder and unzip the folder. You don't have to change the destination for the unzipped folder.
+Now you're going to install osTicket v1.15.8. First, go to the osTicket-Installation-Files folder and unzip the folder. You don't have to change the destination for the unzipped folder. Leave this window open.
 </p>
 <br />
 
@@ -144,79 +144,79 @@ Now you're going to install osTicket v1.15.8. First, go to the osTicket-Installa
 <img src="https://i.imgur.com/FIzJk2T.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Open another File Explorer window and go to Windows (C:) drive. Click on the inetpub folder and then the wwwroot folder.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/QAU6tof.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Copy the  the “upload” folder into “c:\inetpub\wwwroot” by dragging in and rename "upload" to osTicket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/KUgXGXB.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Open IIS and reload it again.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/S2q8Tmh.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+On the left side of the window, click on the os-ticket vm server and expand it. Go to Sites, Default Web Site, then osTicket. On the right side, click on Browse *:80 (http) to load the osTicket site.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/n19nDBT.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+As you can see, there are some extensions that are not enabled. You have to go back to IIS and enable them. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/0WxfI1T.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Double click on PHP Manager.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Gbi6ASp.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Under PHP Extension, click on Enable or disable an extension.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/C8x2Ywj.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Find and enable these extensions by right-clicking on them and selecting Enable: php_imap.dll, php_intl.dll, & php_opcache.dll. After, you can refresh the osTicket website and see the changes.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WYvQ2TI.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Go to C:\inetpub\wwwroot\osTicket\include. Scroll down to ost-sampleconfig.php and rename it to ost-config.php.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VyCl6Tq.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Now you're going to assign permissions. Right click on ost-config.php and got to Properties. Go to the Security tab and click on Advanced.
 </p>
 <br />
 
