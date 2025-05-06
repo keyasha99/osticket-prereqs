@@ -221,10 +221,74 @@ Now you're going to assign permissions. Right click on ost-config.php and got to
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/LJQlPt2.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Click on Disable inheritance and select Remove all inherited permission from this object. After that, click on Add and then Select a principal in the next window.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GjEIMbI.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+For object name, assign permissions to anyone you want. For this tutorial, I put Everyone. Click Check Names and then OK.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/o6JnkkW.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Check the box Full Control and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6x662wu.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Click Apply and then OK.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ogpd39P.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Go back to the osTicket site and click Continue at the bottom of the page. Fill out your information in the fields. Open up the crendential text file on your computer from earlier and use it to fill out the Admin User username and password.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ymNwr28.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Before filling out the Database Settings, you have to install HeidiSQL.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/oasU3Wq.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Go to the osTicket-Installation-Files folder to install it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/imPa3qo.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To create a new session, click on New at the bottom left corner. For username and password, put root and click Open.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mUAc48R.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Now you have to create a database. To do this, right-click Unnamed, go to Create new and select Database. Name it osTicket and click OK.
 </p>
 <br />
 
