@@ -293,33 +293,17 @@ Now you have to create a database. To do this, right-click Unnamed, go to Create
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/wDdoJzF.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Go back to osTicket site, fill out the SQL Database, Username, & Password, and click Install Now.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/t59YztA.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
+Now you're finished with installing osTicket. Bookmark the Your osTicket URL for the help desk login page. Also bookmark http://localhost/osTicket/ for End Users osTicket. 
 </p>
 <br />
