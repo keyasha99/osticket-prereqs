@@ -92,7 +92,7 @@ Check the Modify Security Settings and to make things easier, I set the username
 <img src="https://i.imgur.com/QXfWn02.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Open IIS as an Administrator. Click on PHP.
+Now you're going to register PHP. Open IIS as an Administrator and click on PHP.
 </p>
 <br />
 
