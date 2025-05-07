@@ -84,7 +84,7 @@ Select Standard Configuration and continue.
 <img src="https://i.imgur.com/BLLA2pe.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Check the Modify Security Settings and to make things easier, set the username and password to root. I suggest saving a text file for all of the credentials that you will be using. The osTicket Admin login is saved for later. Continue with installation.
+Check the Modify Security Settings and to make things easier, I set the username and password to root, but you can use whatever you want. I suggest saving a text file for all of the credentials that you will be using. The osTicket Admin login is saved for later. Continue with installation.
 </p>
 <br />
 
