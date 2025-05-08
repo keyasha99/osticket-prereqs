@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/G8pVCzh.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-From the osTicket-Installation-Files, install the PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi). Once that is finished, install the Rewrite Module (rewrite_amd64_en-US.msi).
+From the osTicket-Installation-Files, install the PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi). Then, install the Rewrite Module (rewrite_amd64_en-US.msi).
 </p>
 <br />
 
@@ -84,7 +84,7 @@ Select Standard Configuration and continue.
 <img src="https://i.imgur.com/BLLA2pe.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Check the Modify Security Settings and to make things easier, I set the username and password to root, but you can use whatever you want. I suggest saving a text file for all of the credentials that you will be using. The osTicket Admin login is saved for later. Continue with installation.
+Check the Modify Security Settings. To make things easier, I set the username and password to root, but you can use whatever you want. I suggest saving a text file for all the credentials you will be using. The osTicket Admin login is saved for later. Continue with the installation.
 </p>
 <br />
 
@@ -128,7 +128,7 @@ Click on Register new PHP version. Follow along through the next couple of pictu
 <img src="https://i.imgur.com/0oXzSqr.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Go back to the osticket-vm Home and reload IIS by going to the right side of the window and clicking on Stop and then Start.
+Return to the osticket-vm Home and reload IIS by going to the right side of the window and clicking on Stop and then Start.
 </p>
 <br />
 
@@ -136,7 +136,7 @@ Go back to the osticket-vm Home and reload IIS by going to the right side of the
 <img src="https://i.imgur.com/KflXZZe.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Now you're going to install osTicket v1.15.8. First, go to the osTicket-Installation-Files folder and unzip the folder. You don't have to change the destination for the unzipped folder. Leave this window open.
+Now, you're going to install osTicket v1.15.8. First, go to the osTicket-Installation-Files folder and unzip it. You don't have to change the destination for the unzipped folder. Leave this window open.
 </p>
 <br />
 
@@ -152,7 +152,7 @@ Open another File Explorer window and go to Windows (C:) drive. Click on the ine
 <img src="https://i.imgur.com/QAU6tof.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Copy the  the “upload” folder into “c:\inetpub\wwwroot” by dragging in and rename "upload" to osTicket.
+Copy the  the “upload” folder into “c:\inetpub\wwwroot” by dragging it and rename "upload" to osTicket.
 </p>
 <br />
 
@@ -160,7 +160,7 @@ Copy the  the “upload” folder into “c:\inetpub\wwwroot” by dragging in a
 <img src="https://i.imgur.com/KUgXGXB.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Open IIS and reload it again.
+Open IIS and reload it.
 </p>
 <br />
 
@@ -168,7 +168,7 @@ Open IIS and reload it again.
 <img src="https://i.imgur.com/S2q8Tmh.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-On the left side of the window, click on the os-ticket vm server and expand it. Go to Sites, Default Web Site, then osTicket. On the right side, click on Browse *:80 (http) to load the osTicket site.
+On the left side of the window, click on the os-ticket vm server and expand it. Go to Sites, Default Web Site, then osTicket. On the right side, click Browse *:80 (http) to load the osTicket site.
 </p>
 <br />
 
@@ -176,7 +176,7 @@ On the left side of the window, click on the os-ticket vm server and expand it. 
 <img src="https://i.imgur.com/n19nDBT.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-As you can see, there are some extensions that are not enabled. You have to go back to IIS and enable them. 
+As you can see, some extensions are not enabled. You have to go back to IIS and enable them.  
 </p>
 <br />
 
@@ -184,7 +184,7 @@ As you can see, there are some extensions that are not enabled. You have to go b
 <img src="https://i.imgur.com/0WxfI1T.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Double click on PHP Manager.
+Double-click on PHP Manager.
 </p>
 <br />
 
@@ -200,7 +200,7 @@ Under PHP Extension, click on Enable or disable an extension.
 <img src="https://i.imgur.com/C8x2Ywj.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Find and enable these extensions by right-clicking on them and selecting Enable: php_imap.dll, php_intl.dll, & php_opcache.dll. After, you can refresh the osTicket website and see the changes.
+Find and enable these extensions by right-clicking on them and selecting Enable: php_imap.dll, php_intl.dll, and php_opcache.dll. Then, you can refresh the osTicket website to see the changes.
 </p>
 <br />
 
@@ -216,7 +216,7 @@ Go to C:\inetpub\wwwroot\osTicket\include. Scroll down to ost-sampleconfig.php a
 <img src="https://i.imgur.com/VyCl6Tq.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Now you're going to assign permissions. Right click on ost-config.php and got to Properties. Go to the Security tab and click on Advanced.
+NNow, you'll assign permissions. Right-click on ost-config.php and go to Properties. Then, go to the Security tab and click on Advanced.
 </p>
 <br />
 
@@ -224,7 +224,7 @@ Now you're going to assign permissions. Right click on ost-config.php and got to
 <img src="https://i.imgur.com/LJQlPt2.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Click on Disable inheritance and select Remove all inherited permission from this object. After that, click on Add and then Select a principal in the next window.
+Click on Disable inheritance and select Remove all inherited permissions from this object. After that, click on Add and then Select a principal in the next window.
 </p>
 <br />
 
@@ -232,7 +232,7 @@ Click on Disable inheritance and select Remove all inherited permission from thi
 <img src="https://i.imgur.com/GjEIMbI.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-For object name, assign permissions to anyone you want. For this tutorial, I put Everyone. Click Check Names and then OK.
+Assign permissions to anyone you want for the object name. For this tutorial, I put Everyone. Click Check Names and then OK.
 </p>
 <br />
 
@@ -256,7 +256,7 @@ Click Apply and then OK.
 <img src="https://i.imgur.com/ogpd39P.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Go back to the osTicket site and click Continue at the bottom of the page. Fill out your information in the fields. Open up the crendential text file on your computer from earlier and use it to fill out the Admin User username and password.
+Go back to the osTicket site and click Continue at the bottom of the page. Fill out your information in the fields. Open up the credential text file from earlier on your computer and use it to fill out the Admin User username and password.
 </p>
 <br />
 
@@ -280,7 +280,7 @@ Go to the osTicket-Installation-Files folder to install it.
 <img src="https://i.imgur.com/imPa3qo.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-To create a new session, click on New at the bottom left corner. For username and password, put root and click Open.
+To create a new session, click New at the bottom left corner. For username and password, type root and click Open.
 </p>
 <br />
 
@@ -304,6 +304,6 @@ Go back to osTicket site, fill out the SQL Database, Username, & Password, and c
 <img src="https://i.imgur.com/t59YztA.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-Now you're finished with installing osTicket. Bookmark the Your osTicket URL for the help desk login page. Also bookmark http://localhost/osTicket/ for End Users osTicket. 
+Now that you've finished installing osTicket, bookmark your osTicket URL for the help desk login page and http://localhost/osTicket/ for End Users.
 </p>
 <br />
