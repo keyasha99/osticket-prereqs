@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Create an Azure Virtual Machine - Windows 10, 2vcpus</h3>
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/GWreerA.png" alt="osTicket Installation"/>
 </p>
 <p>
 To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
@@ -29,7 +29,7 @@ To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, loo
 <br />
 
 <p>
-<img src="https://i.imgur.com/VoaxXjH.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/VoaxXjH.png" alt="osTicket Installation"/>
 </p>
 <p>
 Click the Create button and go to Virtual machine.
@@ -37,90 +37,122 @@ Click the Create button and go to Virtual machine.
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/xERjTzh.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+For Resource group, go to Create new and name it. Once done, click OK.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/y67f6Uk.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+Name your virtual machine and set the region to whatever region you live in.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/qUTHP8y.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+For image, select the Windows 10 Pro that you see in the picture. For size, make sure you select one with at least 2vcpus.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/66kGHc4.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+Create a username and password to log into the VM.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/QM6Sq4F.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
-</p>
-<p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+Check the box for Licensing and click Next to Disks.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/Q7cOcxv.png" alt="osTicket Installation"/>
 </p>
 <p>
-To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+Click Next to Networking.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hIriBJC.png" alt="osTicket Installation"/>
+</p>
+<p>
+Here, Azure should have created a virtual network for you already. Leave everything as is and go to Review + create.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/n2G1tZ7.png" alt="osTicket Installation"/>
+</p>
+<p>
+Click Create.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3QYOmcX.png" alt="osTicket Installation"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/e2r09wA.png" alt="osTicket Installation"/>
+</p>
+<p>
+Once the virtual machine is finished deploying, go back into Virtual machines.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/gBULkws.png" alt="osTicket Installation"/>
+</p>
+<p>
+Go to the Start icon on your computer and open Remote Desktop Connection.
+</p>
+<br />
+
+<img src="https://i.imgur.com/oSLzLFf.png" alt="osTicket Installation"/>
+</p>
+<p>
+Copy and paste your VM's public IP address in the bar and click Connect.
+</p>
+<br />
+
+<img src="https://i.imgur.com/HpTEtHB.png" alt="osTicket Installation"/>
+</p>
+<p>
+Go to More choices.
+</p>
+<br />
+
+<img src="https://i.imgur.com/kdjig6R.png" alt="osTicket Installation"/>
+</p>
+<p>
+Click Use a different account.
+</p>
+<br />
+
+<img src="https://i.imgur.com/7AWvYBh.png" alt="osTicket Installation"/>
+</p>
+<p>
+Enter the username and password you've created during the setup of the VM and click OK.
+</p>
+<br />
+
+<img src="https://i.imgur.com/WHw0SWr.png" alt="osTicket Installation"/>
+</p>
+<p>
+Click Yes and you'll be logged into the VM.
 </p>
 <br />
 
