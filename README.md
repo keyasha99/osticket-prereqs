@@ -163,7 +163,7 @@ Click Yes and you'll be logged into the VM.
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/G8pVCzh.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/G8pVCzh.png" alt="osTicket Installation"/>
 </p>
 <p>
 From the osTicket-Installation-Files, install the PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi). Then, install the Rewrite Module (rewrite_amd64_en-US.msi).
@@ -171,7 +171,7 @@ From the osTicket-Installation-Files, install the PHP Manager for IIS (PHPManage
 <br />
 
 <p>
-<img src="https://i.imgur.com/MDYZl8v.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/MDYZl8v.png" alt="osTicket Installation"/>
 </p>
 <p>
 Create the directory C:\PHP by creating a new folder in the Windows (C:) drive.
@@ -179,7 +179,7 @@ Create the directory C:\PHP by creating a new folder in the Windows (C:) drive.
 <br />
 
 <p>
-<img src="https://i.imgur.com/B8ixJ4r.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/B8ixJ4r.png" alt="osTicket Installation"/>
 </p>
 <p>
 Going back to the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
