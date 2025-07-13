@@ -18,8 +18,114 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create an Azure Virtual Machine - Windows 10, 2vcpus
+<h3>Create an Azure Virtual Machine - Windows 10, 2vcpus</h3>
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VoaxXjH.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+Click the Create button and go to Virtual machine.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GWreerA.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+To begin this tutorial, you will create a Windows 10 VM. In Microsoft Azure, look up Virtual machines and go to it.
+</p>
+<br />
+
 - Download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+
 - Install / Enable IIS in Windows WITH CGI
 
 <h2>Installation Steps</h2>
